@@ -1,0 +1,114 @@
+.content {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 100px
+}
+
+.bt,
+.content {
+    box-sizing: border-box
+}
+
+.bt {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border-top: 1px solid #555;
+    color: #555;
+    font-weight: 700
+}
+
+html body {
+    background: #f2f2f2
+}
+
+#app,
+html body {
+    margin: 0;
+    padding: 0
+}
+
+#app,
+.nav {
+    width: 100%
+}
+
+.nav {
+    height: 68px;
+    min-width: 1000px;
+    background: #fff;
+    padding-left: 100px;
+    box-sizing: border-box;
+    position: relative
+}
+
+.nav a {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    line-height: 68px;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400
+}
+
+.nav .router-link-active,
+.nav a:hover {
+    background: #00677c;
+    color: #fff
+}
+
+.top-avatar {
+    min-height: 44px;
+    width: 100px;
+    position: absolute;
+    top: 3px;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden
+}
+
+.avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%
+}
+
+.avatar-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%
+}
+
+.aaa-info {
+    height: 60px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    display: none
+}
+
+.aaa-info .item {
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer
+}
+
+.aaa-info .item:hover {
+    background: #f7f7f7
+}
+
+.top-avatar:hover .aaa-info {
+    display: block
+}
